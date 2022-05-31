@@ -1,20 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Chivo:wght@300;400;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <title>Pod request access landing page</title>
 </head>
+
 <body>
-  Publish your podcasts everywhere.
-
-  Upload your audio to Pod with a single click. We’ll then distribute your podcast to Spotify, 
-  Apple Podcasts, Google Podcasts, Pocket Casts and more!
-
-  Request access
-  <script src="script.js"></script>
+  <img src="./assets/tablet/image-host.jpg" alt="Hero-background-tablet" class="tablet-bg">
+  <img src="./assets/desktop/image-host.jpg" alt="Hero-background-desktop" class="desktop-bg">
+  <img src="./assets/desktop/logo.svg" alt="Pod-logo" class="logo">
+  <div class="content">
+    <header class="header">
+      <h1>Publish your podcasts <br><span>everywhere.</span></h1>
+    </header>
+    <main class="main"> Upload your audio to Pod with a single click. We’ll then distribute your podcast to Spotify,
+      Apple Podcasts, Google Podcasts, Pocket Casts and more!
+    </main>
+    <section class="logos">
+      <img src="./assets/desktop/spotify.svg" alt="Spotify-logo" class="spotify">
+      <img src="./assets/desktop/apple-podcast.svg" alt="Apple-podcats-logo" class="apple">
+      <img src="./assets/desktop/google-podcasts.svg" alt="Google-podcasts-logo" class="google">
+      <img src="./assets/desktop/pocket-casts.svg" alt="Pocket-casts-logo" class="pocket">
+    </section>
+    <form class="form">
+      <input type="email" placeholder="Email address" class="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+      <button class="request">Request Access</button>
+    </form>
+  </div>
+  <img src="./assets/desktop/bg-pattern-dots.svg" alt="dots" class="dots">
 </body>
+
 </html>
